@@ -4786,6 +4786,12 @@ iframe {
   border-radius: 20px;
   background: #fff;
 }
+.partner-section-two .logo-box img {
+  animation: rotated 100s infinite linear;
+}
+.partner-section-two .logo-box:hover img {
+  animation: none;
+}
 .partner-section-two .slider-wrapper {
   padding: 0 8px;
 }
