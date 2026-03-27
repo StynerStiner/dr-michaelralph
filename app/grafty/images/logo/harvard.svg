@@ -1,0 +1,5 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" fill="#000"/>
+  <text x="100" y="95" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Harvard</text>
+  <text x="100" y="118" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle">University</text>
+</svg>
