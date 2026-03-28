@@ -787,14 +787,18 @@
   .theme-main-menu .mega-dropdown .home-item {margin: 10px 0;}
   .theme-main-menu .mega-dropdown .home-item span {font-size: 16px;}
   .theme-main-menu.gap-five .top-header {padding: 25px 0;}
-  .hero-banner-one {padding-top: 120px;}
-  .hero-banner-one .image-wrapper {position: relative; bottom: auto;}
-  .hero-banner-one .image-wrapper .avatar-img {max-width: 300px;}
+  .hero-banner-one {padding-top: 80px;}
+  .hero-banner-one .image-wrapper {position: relative; bottom: auto; margin-bottom: -20px;}
+  .hero-banner-one .image-wrapper .avatar-img {max-width: 280px;}
   .hero-banner-one .image-wrapper:before {height: 50%;}
   .hero-banner-one .image-wrapper .name {font-size: 45px; top:auto; bottom: 20%;}
-  .hero-banner-one .hero-heading, .about-me-section .hero-heading {font-size: 50px; line-height: 1.12em;}
-  .hero-banner-one .about-info {padding: 30px 40px 55px; max-width: 100%;}
-  .hero-banner-one .about-info .discuss-btn {max-width: 120px; bottom: 15px; right: 15px;}
+  .hero-banner-one .image-wrapper .profession {font-size: 180px;}
+  .hero-banner-one .slogan {font-size: 16px; margin-bottom: 5px;}
+  .hero-banner-one .hero-heading, .about-me-section .hero-heading {font-size: 38px; line-height: 1.1em; margin-bottom: 15px;}
+  .hero-banner-one .about-info {padding: 25px 30px 50px; max-width: 100%; margin-top: 10px;}
+  .hero-banner-one .about-info p {font-size: 16px; line-height: 1.5em;}
+  .hero-banner-one .about-info .email {font-size: 16px;}
+  .hero-banner-one .about-info .discuss-btn {max-width: 100px; bottom: 12px; right: 12px;}
   .card-style-two .rating {margin-top: 0;}
   .about-me-section .line-shape:before {display: none;}
   .about-me-section .cv-btn {transform: translate(-50%, 0);}
@@ -1029,8 +1033,12 @@
 
 /*Extra Small breakpoints*/
 @media (max-width: 575px) {
+  .hero-banner-one {padding-top: 60px;}
   .hero-banner-one .image-wrapper .profession {font-size: 100px;}
-  .hero-banner-one .about-info {padding: 30px 15px 55px;}
+  .hero-banner-one .image-wrapper .avatar-img {max-width: 240px;}
+  .hero-banner-one .hero-heading, .about-me-section .hero-heading {font-size: 32px;}
+  .hero-banner-one .about-info {padding: 20px 15px 50px;}
+  .hero-banner-one .about-info p {font-size: 15px;}
   .hero-banner-two .tags {position: static; justify-content: center; margin: 15px 0 10px;}
   .hero-banner-two .main-bg {min-height: 650px;}
   .hero-banner-two .hero-heading,.fancy-banner-one h3 {font-size: 48px;}
